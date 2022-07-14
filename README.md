@@ -2,14 +2,14 @@
 ft_printf is a project in C language that mimics the real `printf()` function.
 
 
-### You need to implement the `libc printf()` function.
+## You need to implement the `libc printf()` function.
 The `ft_printf()` prototype should be:
 ```
 int  ft_printf(const char *, ...);
 ```
 
 
-### Here are some requirements to follow:
+## Here are some requirements to follow:
 - Unlike the original `printf()` function, you don't have to manage a buffer.
 - You must handle the following conversions: `cspdiuxX%`
 - Your output will be compared to the original printf() function.
@@ -17,7 +17,7 @@ int  ft_printf(const char *, ...);
 - Your `libftprintf.a` must be created at the root of your repository.
 
 
-### You must implement the following conversions:
+## You must implement the following conversions:
 - `%c` Displays a single character.
 - `%s` Displays a character string (as defined by the C convention).
 - `%p` The `void *` pointer argument must be displayed in hexadecimal.
@@ -29,6 +29,6 @@ int  ft_printf(const char *, ...);
 - `%%` Displays a percent sign.
 
 
-### List of bonuses:
+## List of bonuses:
 - Support any combination of the following flags: '`-0.`' and minimum field width with all conversions.
 - Support all of the following flags: '`#+`' (Yes, space is a valid flag)
